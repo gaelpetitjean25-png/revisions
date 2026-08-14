@@ -38,7 +38,7 @@
         "soif": 20,
         "propre": 20,
         "joie": 20,
-        "maj": 1786688637022,
+        "maj": 1786689595067,
         "envie": "faim",
         "prochainBobo": 1786531840257,
         "bobo": false,
@@ -54,7 +54,7 @@
         "soif": 20,
         "propre": 20,
         "joie": 20,
-        "maj": 1786688637022,
+        "maj": 1786689595067,
         "envie": "faim"
       },
       "loutre": {
@@ -66,7 +66,7 @@
         "soif": 20,
         "propre": 20,
         "joie": 20,
-        "maj": 1786688637022,
+        "maj": 1786689595067,
         "envie": "faim"
       },
       "poussin": {
@@ -78,7 +78,7 @@
         "soif": 20,
         "propre": 20,
         "joie": 20,
-        "maj": 1786688637022,
+        "maj": 1786689595067,
         "envie": "faim"
       },
       "pandaroux": {
@@ -90,7 +90,7 @@
         "soif": 20,
         "propre": 20,
         "joie": 20,
-        "maj": 1786688637022,
+        "maj": 1786689595067,
         "envie": "faim"
       },
       "tortue": {
@@ -102,7 +102,7 @@
         "soif": 20,
         "propre": 20,
         "joie": 20,
-        "maj": 1786688637022,
+        "maj": 1786689595067,
         "envie": "faim",
         "prochainBobo": 1786532335309
       },
@@ -115,7 +115,7 @@
         "soif": 20,
         "propre": 20,
         "joie": 20,
-        "maj": 1786688637022,
+        "maj": 1786689595067,
         "envie": "faim"
       }
     },
@@ -139,7 +139,7 @@
       "piscine": false,
       "cabane": false
     },
-    "majProfil": 1786606429329,
+    "majProfil": 1786689617990,
     "statsExo": {
       "exRanger": {
         "r": 7,
@@ -203,19 +203,19 @@
       "🫧": 11
     },
     "pieces": 192,
-    "tempsExo": 30,
-    "tempsAnimal": 2690,
+    "tempsExo": 32,
+    "tempsAnimal": 2686,
     "creatures": {
       "capybara": {
         "espece": "capybara",
         "stade": 3,
         "xp": 161,
         "nom": "capy",
-        "faim": 64,
-        "soif": 64,
-        "propre": 82,
-        "joie": 82,
-        "maj": 1786689517185,
+        "faim": 61,
+        "soif": 61,
+        "propre": 81,
+        "joie": 81,
+        "maj": 1786692656939,
         "envie": "faim",
         "prochainBobo": 1786646871946,
         "apparence": 1
@@ -225,11 +225,11 @@
         "stade": 3,
         "xp": 130,
         "nom": "boing",
-        "faim": 64,
-        "soif": 64,
-        "propre": 82,
-        "joie": 82,
-        "maj": 1786689517185,
+        "faim": 61,
+        "soif": 61,
+        "propre": 81,
+        "joie": 81,
+        "maj": 1786692656939,
         "envie": "faim",
         "bobo": false,
         "prochainBobo": 1786646897062,
@@ -240,11 +240,11 @@
         "stade": 3,
         "xp": 141,
         "nom": "flameche",
-        "faim": 64,
-        "soif": 64,
-        "propre": 82,
-        "joie": 62,
-        "maj": 1786689517185,
+        "faim": 61,
+        "soif": 61,
+        "propre": 81,
+        "joie": 61,
+        "maj": 1786692656939,
         "envie": "joie",
         "prochainBobo": 1786646760379,
         "bobo": false,
@@ -257,11 +257,11 @@
         "stade": 3,
         "xp": 141,
         "nom": "croquette",
-        "faim": 64,
-        "soif": 64,
-        "propre": 82,
-        "joie": 82,
-        "maj": 1786689517185,
+        "faim": 61,
+        "soif": 61,
+        "propre": 81,
+        "joie": 81,
+        "maj": 1786692656939,
         "envie": "faim",
         "prochainBobo": 1786646840238,
         "apparence": 1
@@ -271,24 +271,24 @@
         "stade": 2,
         "xp": 123,
         "nom": "bubule",
-        "faim": 64,
-        "soif": 64,
-        "propre": 82,
-        "joie": 82,
-        "maj": 1786689517185,
+        "faim": 61,
+        "soif": 61,
+        "propre": 81,
+        "joie": 81,
+        "maj": 1786692656939,
         "envie": "faim",
-        "prochainBobo": 1786647000645
+        "prochainBobo": 1786690468542
       },
       "minobaguette": {
         "espece": "minobaguette",
         "stade": 2,
         "xp": 117,
         "nom": "Prune",
-        "faim": 64,
-        "soif": 64,
-        "propre": 82,
-        "joie": 59,
-        "maj": 1786689517185,
+        "faim": 61,
+        "soif": 61,
+        "propre": 81,
+        "joie": 58,
+        "maj": 1786692656939,
         "envie": "joie",
         "prochainBobo": 1786646814967
       },
@@ -297,11 +297,11 @@
         "stade": 2,
         "xp": 124,
         "nom": "muffi",
-        "faim": 64,
-        "soif": 64,
-        "propre": 82,
-        "joie": 82,
-        "maj": 1786689517185,
+        "faim": 61,
+        "soif": 61,
+        "propre": 81,
+        "joie": 81,
+        "maj": 1786692656939,
         "envie": "faim",
         "prochainBobo": 1786646967127
       },
@@ -310,11 +310,11 @@
         "stade": 3,
         "xp": 134,
         "nom": "choupisson",
-        "faim": 64,
-        "soif": 64,
-        "propre": 82,
-        "joie": 79,
-        "maj": 1786689517185,
+        "faim": 61,
+        "soif": 61,
+        "propre": 81,
+        "joie": 78,
+        "maj": 1786692656939,
         "envie": "faim",
         "prochainBobo": 1786646924343,
         "apparence": 1
@@ -809,7 +809,7 @@
       "piscine": false,
       "cabane": false
     },
-    "majProfil": 1786689526200,
+    "majProfil": 1786689593905,
     "statsExo": {},
     "statsFamille": {
       "geo": {
@@ -834,6 +834,6 @@
       }
     }
   },
-  "majGlobal": 1786689526200,
+  "majGlobal": 1786692637403,
   "cloud": "j-019ff0d2-8b7c-78ee-9015-e56ee8e97c54"
 }
