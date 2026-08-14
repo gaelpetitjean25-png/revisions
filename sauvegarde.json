@@ -1,0 +1,839 @@
+{
+  "noms": {
+    "petite": "Lucie May",
+    "grande": "Ruby Rose"
+  },
+  "reglages": {
+    "seuil": 600,
+    "garde": 300
+  },
+  "petite": {
+    "etoiles": 217,
+    "parties": 27,
+    "justes": 217,
+    "total": 270,
+    "nouveaux": 0,
+    "sac": {
+      "🪀": 13,
+      "🧃": 11,
+      "🍼": 3,
+      "🎈": 1,
+      "🛁": 2,
+      "🌾": 6,
+      "🎀": 7,
+      "🧼": 10,
+      "🥕": 5,
+      "🫧": 2
+    },
+    "pieces": 79,
+    "tempsExo": 430,
+    "tempsAnimal": 203,
+    "creatures": {
+      "licorne": {
+        "espece": "licorne",
+        "stade": 2,
+        "xp": 84,
+        "nom": "lucemapy",
+        "faim": 36,
+        "soif": 36,
+        "propre": 36,
+        "joie": 39,
+        "maj": 1786605479439,
+        "envie": "faim",
+        "prochainBobo": 1786531840257,
+        "bobo": false,
+        "boboX": 66.57492372187627,
+        "boboY": 57.88408364011279
+      },
+      "minourose": {
+        "espece": "minourose",
+        "stade": 1,
+        "xp": 26,
+        "nom": "Lucie may",
+        "faim": 20,
+        "soif": 20,
+        "propre": 20,
+        "joie": 20,
+        "maj": 1786605479439,
+        "envie": "faim"
+      },
+      "loutre": {
+        "espece": "loutre",
+        "stade": 1,
+        "xp": 23,
+        "nom": "Loutre",
+        "faim": 20,
+        "soif": 20,
+        "propre": 20,
+        "joie": 20,
+        "maj": 1786605479439,
+        "envie": "faim"
+      },
+      "poussin": {
+        "espece": "poussin",
+        "stade": 1,
+        "xp": 24,
+        "nom": "Poussin",
+        "faim": 20,
+        "soif": 20,
+        "propre": 20,
+        "joie": 20,
+        "maj": 1786605479439,
+        "envie": "faim"
+      },
+      "pandaroux": {
+        "espece": "pandaroux",
+        "stade": 1,
+        "xp": 21,
+        "nom": "Panda roux",
+        "faim": 20,
+        "soif": 20,
+        "propre": 20,
+        "joie": 20,
+        "maj": 1786605479439,
+        "envie": "faim"
+      },
+      "tortue": {
+        "espece": "tortue",
+        "stade": 1,
+        "xp": 22,
+        "nom": "ca!pfgkgjhlkbb",
+        "faim": 39,
+        "soif": 39,
+        "propre": 39,
+        "joie": 39,
+        "maj": 1786605479439,
+        "envie": "faim",
+        "prochainBobo": 1786532335309
+      },
+      "mouton": {
+        "espece": "mouton",
+        "stade": 1,
+        "xp": 25,
+        "nom": "luciemay",
+        "faim": 39,
+        "soif": 39,
+        "propre": 39,
+        "joie": 39,
+        "maj": 1786605479439,
+        "envie": "faim"
+      }
+    },
+    "actif": "mouton",
+    "oeuf": null,
+    "memo": {},
+    "lecture": {
+      "etape": 2,
+      "reussites": 4,
+      "sur": 4
+    },
+    "equipements": {
+      "abreuvoir": false,
+      "mangeoire": false,
+      "brosse": false,
+      "portique": false,
+      "shampoing": false,
+      "baignoire": false,
+      "toboggan": false,
+      "arbre": false,
+      "piscine": false,
+      "cabane": false
+    },
+    "majProfil": 1786606429329,
+    "statsExo": {
+      "exRanger": {
+        "r": 7,
+        "s": 9
+      },
+      "exSonAttaqueOral": {
+        "r": 5,
+        "s": 7
+      },
+      "exCouleur": {
+        "r": 6,
+        "s": 7
+      },
+      "exCompter": {
+        "r": 2,
+        "s": 4
+      },
+      "exSyllabes": {
+        "r": 5,
+        "s": 5
+      },
+      "exRime": {
+        "r": 3,
+        "s": 5
+      },
+      "exSonAttaque": {
+        "r": 1,
+        "s": 1
+      },
+      "exLireMot": {
+        "r": 1,
+        "s": 1
+      },
+      "exDecodage": {
+        "r": 1,
+        "s": 1
+      }
+    },
+    "statsFamille": {}
+  },
+  "grande": {
+    "etoiles": 847,
+    "parties": 96,
+    "justes": 847,
+    "total": 960,
+    "nouveaux": 0,
+    "sac": {
+      "🎈": 32,
+      "🪀": 44,
+      "🛁": 23,
+      "🎀": 30,
+      "🍓": 32,
+      "🍼": 50,
+      "🧸": 41,
+      "🌾": 54,
+      "🍎": 24,
+      "🧼": 46,
+      "🥕": 10,
+      "🧃": 17,
+      "💧": 11,
+      "🫧": 11
+    },
+    "pieces": 192,
+    "tempsExo": 30,
+    "tempsAnimal": 2690,
+    "creatures": {
+      "capybara": {
+        "espece": "capybara",
+        "stade": 3,
+        "xp": 161,
+        "nom": "capy",
+        "faim": 100,
+        "soif": 100,
+        "propre": 100,
+        "joie": 100,
+        "maj": 1786646467734,
+        "envie": null,
+        "prochainBobo": 1786646871946,
+        "apparence": 1
+      },
+      "grenouille": {
+        "espece": "grenouille",
+        "stade": 3,
+        "xp": 130,
+        "nom": "boing",
+        "faim": 100,
+        "soif": 100,
+        "propre": 100,
+        "joie": 100,
+        "maj": 1786646467734,
+        "envie": null,
+        "bobo": false,
+        "prochainBobo": 1786646897062,
+        "apparence": 1
+      },
+      "dragonnet": {
+        "espece": "dragonnet",
+        "stade": 3,
+        "xp": 141,
+        "nom": "flameche",
+        "faim": 100,
+        "soif": 100,
+        "propre": 100,
+        "joie": 80,
+        "maj": 1786646467734,
+        "envie": null,
+        "prochainBobo": 1786646760379,
+        "bobo": false,
+        "boboX": 59.111190682073776,
+        "boboY": 65.0080477340039,
+        "apparence": 1
+      },
+      "chaton": {
+        "espece": "chaton",
+        "stade": 3,
+        "xp": 141,
+        "nom": "croquette",
+        "faim": 100,
+        "soif": 100,
+        "propre": 100,
+        "joie": 100,
+        "maj": 1786646467734,
+        "envie": null,
+        "prochainBobo": 1786646840238,
+        "apparence": 1
+      },
+      "axolotl": {
+        "espece": "axolotl",
+        "stade": 2,
+        "xp": 123,
+        "nom": "bubule",
+        "faim": 100,
+        "soif": 100,
+        "propre": 100,
+        "joie": 100,
+        "maj": 1786646467734,
+        "envie": null,
+        "prochainBobo": 1786647000645
+      },
+      "minobaguette": {
+        "espece": "minobaguette",
+        "stade": 2,
+        "xp": 117,
+        "nom": "Prune",
+        "faim": 100,
+        "soif": 100,
+        "propre": 100,
+        "joie": 77,
+        "maj": 1786646467734,
+        "envie": null,
+        "prochainBobo": 1786646814967
+      },
+      "vachette": {
+        "espece": "vachette",
+        "stade": 2,
+        "xp": 124,
+        "nom": "muffi",
+        "faim": 100,
+        "soif": 100,
+        "propre": 100,
+        "joie": 100,
+        "maj": 1786646467734,
+        "envie": null,
+        "prochainBobo": 1786646967127
+      },
+      "herisson": {
+        "espece": "herisson",
+        "stade": 3,
+        "xp": 134,
+        "nom": "choupisson",
+        "faim": 100,
+        "soif": 100,
+        "propre": 100,
+        "joie": 97,
+        "maj": 1786646467734,
+        "envie": null,
+        "prochainBobo": 1786646924343,
+        "apparence": 1
+      }
+    },
+    "actif": "axolotl",
+    "oeuf": null,
+    "memo": {
+      "lec.3.1": {
+        "b": 5,
+        "du": 1789553484645
+      },
+      "lec.7.1": {
+        "b": 5,
+        "du": 1789500297119
+      },
+      "lec.2.0": {
+        "b": 5,
+        "du": 1789500343582
+      },
+      "lec.1.1": {
+        "b": 5,
+        "du": 1789500284581
+      },
+      "lec.6.1": {
+        "b": 5,
+        "du": 1789554188709
+      },
+      "lec.5.0": {
+        "b": 5,
+        "du": 1789554169325
+      },
+      "lec.5.1": {
+        "b": 5,
+        "du": 1789500402159
+      },
+      "lec.6.0": {
+        "b": 5,
+        "du": 1789554815740
+      },
+      "lec.4.1": {
+        "b": 5,
+        "du": 1789553198461
+      },
+      "lec.0.1": {
+        "b": 5,
+        "du": 1789554250649
+      },
+      "lec.2.1": {
+        "b": 5,
+        "du": 1789553593431
+      },
+      "lec.3.0": {
+        "b": 4,
+        "du": 1787911602514
+      },
+      "lec.0.0": {
+        "b": 5,
+        "du": 1789556178728
+      },
+      "lec.1.0": {
+        "b": 5,
+        "du": 1789556578150
+      },
+      "lec.7.0": {
+        "b": 5,
+        "du": 1789545530396
+      },
+      "lec.4.0": {
+        "b": 5,
+        "du": 1789500404625
+      },
+      "geo.cap.Pologne": {
+        "b": 2,
+        "du": 1786786948481
+      },
+      "litt.aut.Charlie et la chocolaterie": {
+        "b": 3,
+        "du": 1787136962583
+      },
+      "litt.not.2": {
+        "b": 2,
+        "du": 1786905521911
+      },
+      "litt.not.10": {
+        "b": 1,
+        "du": 1786561782673
+      },
+      "litt.aut.Alice au pays des merveilles": {
+        "b": 2,
+        "du": 1786790092515
+      },
+      "litt.aut.Pinocchio": {
+        "b": 3,
+        "du": 1787133973359
+      },
+      "litt.aut.Le Roman de Renart": {
+        "b": 3,
+        "du": 1787134088786
+      },
+      "litt.aut.L'Île au trésor": {
+        "b": 2,
+        "du": 1786788682401
+      },
+      "litt.aut.Matilda": {
+        "b": 1,
+        "du": 1786561805672
+      },
+      "litt.not.7": {
+        "b": 2,
+        "du": 1786779530717
+      },
+      "litt.aut.Vingt mille lieues sous les mers": {
+        "b": 3,
+        "du": 1787134280135
+      },
+      "litt.not.9": {
+        "b": 2,
+        "du": 1786779692611
+      },
+      "litt.aut.Le Tour du monde en 80 jours": {
+        "b": 1,
+        "du": 1786563006865
+      },
+      "litt.not.11": {
+        "b": 2,
+        "du": 1786779104299
+      },
+      "fr.conj.être.imparfait.2": {
+        "b": 2,
+        "du": 1786779786190
+      },
+      "geo.cap.Chine": {
+        "b": 2,
+        "du": 1786780488175
+      },
+      "geo.div.13": {
+        "b": 1,
+        "du": 1786606363911
+      },
+      "fr.conj.dire.imparfait.2": {
+        "b": 1,
+        "du": 1786606394679
+      },
+      "geo.cap.Grèce": {
+        "b": 1,
+        "du": 1786606476180
+      },
+      "geo.drom.La Réunion": {
+        "b": 1,
+        "du": 1786606482620
+      },
+      "fr.conj.pouvoir.imparfait.5": {
+        "b": 1,
+        "du": 1786606586033
+      },
+      "geo.reg.Bourgogne-Franche-Comté": {
+        "b": 2,
+        "du": 1786780125639
+      },
+      "geo.cap.Autriche": {
+        "b": 2,
+        "du": 1786780197839
+      },
+      "geo.div.9": {
+        "b": 1,
+        "du": 1786606782077
+      },
+      "geo.cap.Suisse": {
+        "b": 2,
+        "du": 1786785935243
+      },
+      "litt.not.1": {
+        "b": 1,
+        "du": 1786606973183
+      },
+      "fr.hom.14": {
+        "b": 2,
+        "du": 1786780506538
+      },
+      "geo.cap.France": {
+        "b": 2,
+        "du": 1786905619894
+      },
+      "fr.conj.aller.conditionnel.5": {
+        "b": 2,
+        "du": 1786786816935
+      },
+      "litt.not.8": {
+        "b": 2,
+        "du": 1786788115464
+      },
+      "litt.not.0": {
+        "b": 2,
+        "du": 1786791330584
+      },
+      "fr.nat.7": {
+        "b": 1,
+        "du": 1786607216933
+      },
+      "fr.conj.faire.présent.2": {
+        "b": 1,
+        "du": 1786607293775
+      },
+      "geo.av.8": {
+        "b": 2,
+        "du": 1786785899069
+      },
+      "litt.aut.Oliver Twist": {
+        "b": 3,
+        "du": 1787133710724
+      },
+      "litt.aut.Le Petit Prince": {
+        "b": 1,
+        "du": 1786607565347
+      },
+      "litt.not.3": {
+        "b": 1,
+        "du": 1786607567931
+      },
+      "litt.not.13": {
+        "b": 1,
+        "du": 1786607570581
+      },
+      "litt.aut.Les Fables": {
+        "b": 1,
+        "du": 1786607573897
+      },
+      "litt.not.4": {
+        "b": 1,
+        "du": 1786607583963
+      },
+      "fr.conj.faire.passé composé.2": {
+        "b": 1,
+        "du": 1786607607355
+      },
+      "litt.aut.Les Misérables": {
+        "b": 1,
+        "du": 1786607624995
+      },
+      "litt.not.6": {
+        "b": 3,
+        "du": 1787136750429
+      },
+      "litt.aut.Robinson Crusoé": {
+        "b": 1,
+        "du": 1786607696848
+      },
+      "geo.cap.Irlande": {
+        "b": 2,
+        "du": 1786786221411
+      },
+      "litt.not.12": {
+        "b": 2,
+        "du": 1786788790518
+      },
+      "litt.aut.Peter Pan": {
+        "b": 2,
+        "du": 1786788411877
+      },
+      "geo.cap.Inde": {
+        "b": 2,
+        "du": 1786788753151
+      },
+      "geo.fleuve.Rhin": {
+        "b": 1,
+        "du": 1786607963681
+      },
+      "litt.not.5": {
+        "b": 2,
+        "du": 1786905623309
+      },
+      "geo.cont.Inde": {
+        "b": 1,
+        "du": 1786607980905
+      },
+      "fr.conj.pouvoir.futur.2": {
+        "b": 2,
+        "du": 1786785914468
+      },
+      "fr.conj.venir.présent.2": {
+        "b": 2,
+        "du": 1786905581642
+      },
+      "fr.conj.voir.plus-que-parfait.5": {
+        "b": 1,
+        "du": 1786613327496
+      },
+      "fr.conj.être.présent.0": {
+        "b": 1,
+        "du": 1786613338473
+      },
+      "litt.aut.Le Livre de la jungle": {
+        "b": 2,
+        "du": 1786790924135
+      },
+      "litt.aut.Le Chat botté": {
+        "b": 2,
+        "du": 1786788339571
+      },
+      "geo.cap.Turquie": {
+        "b": 1,
+        "du": 1786613486526
+      },
+      "fr.conj.prendre.conditionnel.5": {
+        "b": 2,
+        "du": 1786787962353
+      },
+      "geo.cap.Italie": {
+        "b": 2,
+        "du": 1786905608816
+      },
+      "fr.hom.3": {
+        "b": 2,
+        "du": 1786788287966
+      },
+      "litt.aut.Les Aventures de Tom Sawyer": {
+        "b": 2,
+        "du": 1786788384888
+      },
+      "litt.aut.Harry Potter à l'école des sorciers": {
+        "b": 2,
+        "du": 1786905567297
+      },
+      "geo.reg.Hauts-de-France": {
+        "b": 2,
+        "du": 1786789159582
+      },
+      "geo.av.1": {
+        "b": 1,
+        "du": 1786615319454
+      },
+      "geo.av.2": {
+        "b": 2,
+        "du": 1786789386234
+      },
+      "geo.reg.Occitanie": {
+        "b": 1,
+        "du": 1786615532654
+      },
+      "fr.hom.19": {
+        "b": 1,
+        "du": 1786615545476
+      },
+      "fr.conj.être.présent.2": {
+        "b": 1,
+        "du": 1786615581353
+      },
+      "geo.div.16": {
+        "b": 1,
+        "du": 1786615595693
+      },
+      "geo.av.11": {
+        "b": 2,
+        "du": 1786905519281
+      },
+      "fr.syn.malin": {
+        "b": 2,
+        "du": 1786789195439
+      },
+      "fr.nat.21": {
+        "b": 2,
+        "du": 1786789393735
+      },
+      "geo.cap.Allemagne": {
+        "b": 1,
+        "du": 1786615727464
+      },
+      "geo.cap.Tunisie": {
+        "b": 2,
+        "du": 1786789945630
+      },
+      "geo.cap.Portugal": {
+        "b": 1,
+        "du": 1786615837019
+      },
+      "fr.conj.avoir.présent.3": {
+        "b": 1,
+        "du": 1786615969523
+      },
+      "fr.nat.1": {
+        "b": 1,
+        "du": 1786615984639
+      },
+      "fr.conj.dire.futur.3": {
+        "b": 1,
+        "du": 1786616631248
+      },
+      "geo.cont.Australie": {
+        "b": 1,
+        "du": 1786616654350
+      },
+      "fr.conj.pouvoir.imparfait.2": {
+        "b": 1,
+        "du": 1786616676934
+      },
+      "fr.conj.faire.passé composé.3": {
+        "b": 1,
+        "du": 1786616708458
+      },
+      "geo.av.7": {
+        "b": 2,
+        "du": 1786905514357
+      },
+      "fr.conj.avoir.conditionnel.5": {
+        "b": 2,
+        "du": 1786791096816
+      },
+      "fr.conj.avoir.plus-que-parfait.5": {
+        "b": 1,
+        "du": 1786616764691
+      },
+      "geo.cont.Norvège": {
+        "b": 2,
+        "du": 1786790951597
+      },
+      "geo.div.1": {
+        "b": 1,
+        "du": 1786532436470
+      },
+      "geo.div.12": {
+        "b": 2,
+        "du": 1786791146597
+      },
+      "fr.conj.avoir.plus-que-parfait.2": {
+        "b": 1,
+        "du": 1786617100766
+      },
+      "fr.syn.débuter": {
+        "b": 1,
+        "du": 1786617126243
+      },
+      "geo.av.9": {
+        "b": 2,
+        "du": 1786791136240
+      },
+      "geo.div.2": {
+        "b": 1,
+        "du": 1786617211064
+      },
+      "fr.conj.pouvoir.imparfait.0": {
+        "b": 1,
+        "du": 1786532521835
+      },
+      "fr.conj.prendre.plus-que-parfait.5": {
+        "b": 2,
+        "du": 1786791052594
+      },
+      "geo.div.15": {
+        "b": 1,
+        "du": 1786618385267
+      },
+      "geo.cont.Argentine": {
+        "b": 1,
+        "du": 1786618389466
+      },
+      "geo.reg.Normandie": {
+        "b": 2,
+        "du": 1786905556331
+      },
+      "geo.av.6": {
+        "b": 1,
+        "du": 1786618573503
+      },
+      "geo.div.5": {
+        "b": 1,
+        "du": 1786618638691
+      },
+      "geo.cap.Pays-Bas": {
+        "b": 1,
+        "du": 1786618689431
+      },
+      "geo.fleuve.Rhône": {
+        "b": 1,
+        "du": 1786618974216
+      }
+    },
+    "lecture": {
+      "etape": 0,
+      "reussites": 0,
+      "sur": 0
+    },
+    "equipements": {
+      "abreuvoir": false,
+      "mangeoire": false,
+      "brosse": true,
+      "portique": true,
+      "shampoing": false,
+      "baignoire": false,
+      "toboggan": false,
+      "arbre": false,
+      "piscine": false,
+      "cabane": false
+    },
+    "majProfil": 1786686770355,
+    "statsExo": {},
+    "statsFamille": {
+      "geo": {
+        "r": 44,
+        "s": 69
+      },
+      "maths": {
+        "r": 41,
+        "s": 51
+      },
+      "francais": {
+        "r": 29,
+        "s": 43
+      },
+      "litt": {
+        "r": 43,
+        "s": 51
+      },
+      "lecture": {
+        "r": 27,
+        "s": 27
+      }
+    }
+  },
+  "majGlobal": 1786687472993,
+  "cloud": "j-019ff0d2-8b7c-78ee-9015-e56ee8e97c54"
+}
