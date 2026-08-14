@@ -8,26 +8,19 @@
     "garde": 300
   },
   "petite": {
-    "etoiles": 217,
-    "parties": 27,
-    "justes": 217,
-    "total": 270,
+    "etoiles": 237,
+    "parties": 30,
+    "justes": 237,
+    "total": 300,
     "nouveaux": 0,
     "sac": {
-      "🪀": 13,
-      "🧃": 11,
-      "🍼": 3,
-      "🎈": 1,
-      "🛁": 2,
-      "🌾": 6,
-      "🎀": 7,
-      "🧼": 10,
-      "🥕": 5,
-      "🫧": 2
+      "🪀": 9,
+      "🧃": 1,
+      "🧼": 1
     },
-    "pieces": 79,
-    "tempsExo": 430,
-    "tempsAnimal": 203,
+    "pieces": 74,
+    "tempsExo": 199,
+    "tempsAnimal": 326,
     "creatures": {
       "licorne": {
         "espece": "licorne",
@@ -38,7 +31,7 @@
         "soif": 20,
         "propre": 20,
         "joie": 20,
-        "maj": 1786689595067,
+        "maj": 1786733475468,
         "envie": "faim",
         "prochainBobo": 1786531840257,
         "bobo": false,
@@ -54,32 +47,37 @@
         "soif": 20,
         "propre": 20,
         "joie": 20,
-        "maj": 1786689595067,
+        "maj": 1786733475468,
         "envie": "faim"
       },
       "loutre": {
         "espece": "loutre",
-        "stade": 1,
-        "xp": 23,
+        "stade": 2,
+        "xp": 79,
         "nom": "Loutre",
-        "faim": 20,
-        "soif": 20,
-        "propre": 20,
-        "joie": 20,
-        "maj": 1786689595067,
-        "envie": "faim"
+        "faim": 40,
+        "soif": 100,
+        "propre": 100,
+        "joie": 100,
+        "maj": 1786733475468,
+        "envie": "faim",
+        "bobo": false,
+        "boboX": 36.75700665665279,
+        "boboY": 42.531018999829456,
+        "prochainBobo": 1786734276852
       },
       "poussin": {
         "espece": "poussin",
-        "stade": 1,
-        "xp": 24,
+        "stade": 2,
+        "xp": 83,
         "nom": "Poussin",
-        "faim": 20,
-        "soif": 20,
-        "propre": 20,
-        "joie": 20,
-        "maj": 1786689595067,
-        "envie": "faim"
+        "faim": 100,
+        "soif": 100,
+        "propre": 100,
+        "joie": 100,
+        "maj": 1786733475468,
+        "envie": null,
+        "prochainBobo": 1786734229153
       },
       "pandaroux": {
         "espece": "pandaroux",
@@ -90,7 +88,7 @@
         "soif": 20,
         "propre": 20,
         "joie": 20,
-        "maj": 1786689595067,
+        "maj": 1786733475468,
         "envie": "faim"
       },
       "tortue": {
@@ -102,30 +100,43 @@
         "soif": 20,
         "propre": 20,
         "joie": 20,
-        "maj": 1786689595067,
+        "maj": 1786733475468,
         "envie": "faim",
         "prochainBobo": 1786532335309
       },
       "mouton": {
         "espece": "mouton",
-        "stade": 1,
-        "xp": 25,
+        "stade": 2,
+        "xp": 84,
         "nom": "luciemay",
-        "faim": 20,
-        "soif": 20,
-        "propre": 20,
-        "joie": 20,
-        "maj": 1786689595067,
-        "envie": "faim"
+        "faim": 100,
+        "soif": 100,
+        "propre": 84,
+        "joie": 100,
+        "maj": 1786733475468,
+        "envie": null,
+        "prochainBobo": 1786734101889
+      },
+      "etoilekawaii": {
+        "espece": "etoilekawaii",
+        "stade": 1,
+        "xp": 21,
+        "nom": "Étoile filante",
+        "faim": 100,
+        "soif": 100,
+        "propre": 100,
+        "joie": 100,
+        "maj": 1786733475468,
+        "envie": null
       }
     },
-    "actif": "mouton",
+    "actif": "loutre",
     "oeuf": null,
     "memo": {},
     "lecture": {
-      "etape": 2,
-      "reussites": 4,
-      "sur": 4
+      "etape": 3,
+      "reussites": 6,
+      "sur": 11
     },
     "equipements": {
       "abreuvoir": false,
@@ -139,43 +150,59 @@
       "piscine": false,
       "cabane": false
     },
-    "majProfil": 1786689617990,
+    "majProfil": 1786733502877,
     "statsExo": {
       "exRanger": {
-        "r": 7,
-        "s": 9
+        "r": 8,
+        "s": 10
       },
       "exSonAttaqueOral": {
-        "r": 5,
-        "s": 7
+        "r": 6,
+        "s": 8
       },
       "exCouleur": {
-        "r": 6,
-        "s": 7
+        "r": 8,
+        "s": 9
       },
       "exCompter": {
-        "r": 2,
-        "s": 4
+        "r": 4,
+        "s": 8
       },
       "exSyllabes": {
         "r": 5,
         "s": 5
       },
       "exRime": {
-        "r": 3,
-        "s": 5
+        "r": 5,
+        "s": 7
       },
       "exSonAttaque": {
-        "r": 1,
-        "s": 1
+        "r": 4,
+        "s": 6
       },
       "exLireMot": {
         "r": 1,
-        "s": 1
+        "s": 2
       },
       "exDecodage": {
+        "r": 4,
+        "s": 4
+      },
+      "exEcrireMot": {
         "r": 1,
-        "s": 1
+        "s": 3
+      },
+      "exTracerLettre": {
+        "r": 3,
+        "s": 3
+      },
+      "exLettreManquante": {
+        "r": 1,
+        "s": 3
+      },
+      "exMotOutil": {
+        "r": 1,
+        "s": 3
       }
     },
     "statsFamille": {}
@@ -834,6 +861,6 @@
       }
     }
   },
-  "majGlobal": 1786692637403,
+  "majGlobal": 1786733502877,
   "cloud": "j-019ff0d2-8b7c-78ee-9015-e56ee8e97c54"
 }
