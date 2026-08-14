@@ -444,6 +444,11 @@ h1,h2,h3,.titre{font-family:'Fredoka','Avenir Next Rounded','Trebuchet MS',syste
     </button>
     <div style="flex:1"></div>
     <div class="info" id="menu-info"></div>
+    <div style="display:flex; gap:9px; margin-top:12px">
+      <button class="gros fantome" onclick="sauvegarderGithub()" style="flex:1; font-size:14px">💾 Sauvegarder</button>
+      <button class="gros fantome" onclick="chargerGithub()" style="flex:1; font-size:14px">🔄 Charger</button>
+    </div>
+    <div class="legende" id="etat-github-menu" style="text-align:center; min-height:18px; margin-top:4px"></div>
   </section>
 
   <!-- ============ JEU ============ -->
@@ -4225,8 +4230,10 @@ function definirTokenGithub(){
   etatGithub(t.trim() ? "🔑 Jeton enregistré sur cet appareil." : "Jeton effacé.");
 }
 function etatGithub(msg){
-  const el = document.getElementById('etat-github');
-  if (el) el.innerHTML = msg;
+  ["etat-github", "etat-github-menu"].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.innerHTML = msg;
+  });
 }
 async function sauvegarderGithub(){
   const token = githubToken();
