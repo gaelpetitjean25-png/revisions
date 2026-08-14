@@ -536,9 +536,19 @@ h1,h2,h3,.titre{font-family:'Fredoka','Avenir Next Rounded','Trebuchet MS',syste
     </div>
     <h3 style="margin-bottom:8px">Progression</h3>
     <div id="parents-stats"></div>
-    <h3 style="margin:22px 0 8px">Synchro entre appareils</h3>
-    <div class="info" style="margin-bottom:10px">Active la synchro sur un appareil, copie le <b>code famille</b>, puis colle-le sur l'autre. La progression de chaque fille est fusionnée séparément : si elles jouent en même temps sur deux appareils, aucune ne perd sa partie.</div>
-    <button class="gros" id="btn-creer-code" onclick="actionSync()" style="margin-bottom:9px">☁️ Activer la synchro</button>
+
+    <h3 style="margin:22px 0 8px">Sauvegarder sur GitHub</h3>
+    <div class="info" style="margin-bottom:10px">Le bouton « Sauvegarder » enregistre la progression directement dans le dépôt GitHub. Sur l'autre appareil, « Charger » récupère la dernière sauvegarde — la même adresse GitHub, la même donnée. Une seule fois : ajoute ton jeton (clé d'accès) ci-dessous sur chaque appareil qui doit pouvoir <b>sauvegarder</b> (pas nécessaire pour juste charger).</div>
+    <button class="gros fantome" onclick="definirTokenGithub()" style="margin-bottom:9px">🔑 Ajouter mon jeton GitHub</button>
+    <div style="display:flex; gap:9px; margin-bottom:9px">
+      <button class="gros" onclick="sauvegarderGithub()" style="flex:1">💾 Sauvegarder</button>
+      <button class="gros fantome" onclick="chargerGithub()" style="flex:1">🔄 Charger</button>
+    </div>
+    <div class="legende" id="etat-github" style="text-align:left; min-height:20px"></div>
+
+    <h3 style="margin:22px 0 8px">Synchro automatique entre appareils</h3>
+    <div class="info" style="margin-bottom:10px">Une tentative de synchro automatique via des services gratuits — moins fiable que le bouton GitHub ci-dessus, garde-le en secours seulement.</div>
+    <button class="gros fantome" id="btn-creer-code" onclick="actionSync()" style="margin-bottom:9px">☁️ Activer la synchro</button>
     <input id="code-famille" readonly onclick="copierCodeFamille()" style="display:none; width:100%; margin-bottom:9px; padding:12px; border:2px solid var(--accent); border-radius:var(--r-s); font-family:monospace; font-size:13px; text-align:center; color:var(--encre)">
     <button class="gros fantome" onclick="rejoindreCodeFamille()" style="margin-bottom:9px">🔗 Rejoindre un code famille</button>
     <div style="display:flex; gap:9px; margin-bottom:9px">
@@ -547,9 +557,9 @@ h1,h2,h3,.titre{font-family:'Fredoka','Avenir Next Rounded','Trebuchet MS',syste
     </div>
     <div class="legende" id="etat-sync" style="text-align:left; min-height:20px">La synchro n'est pas activée sur cet appareil.</div>
 
-    <h3 style="margin:22px 0 8px">Sauvegarde manuelle</h3>
-    <div class="info" style="margin-bottom:10px">La progression est enregistrée automatiquement sur cet appareil. Le plus simple et le plus fiable : télécharge un fichier de sauvegarde — ton téléphone te proposera de l'enregistrer directement dans Google Drive, sans rien connecter dans l'appli.</div>
-    <button class="gros" onclick="telechargerSauvegarde()" style="margin-bottom:9px">💾 Télécharger un fichier de sauvegarde</button>
+    <h3 style="margin:22px 0 8px">Sauvegarde manuelle (fichier)</h3>
+    <div class="info" style="margin-bottom:10px">La progression est enregistrée automatiquement sur cet appareil. Télécharge un fichier de sauvegarde — ton téléphone te proposera de l'enregistrer directement dans Google Drive, sans rien connecter dans l'appli.</div>
+    <button class="gros fantome" onclick="telechargerSauvegarde()" style="margin-bottom:9px">💾 Télécharger un fichier de sauvegarde</button>
     <button class="gros fantome" onclick="importerFichierSauvegarde()" style="margin-bottom:9px">📂 Restaurer depuis un fichier</button>
     <details style="margin-top:6px">
       <summary style="cursor:pointer; color:var(--encre-clair); font-size:13.5px">Ou avec un code texte à copier-coller</summary>
@@ -4193,6 +4203,75 @@ function importerSauvegarde(){
 /* --- sauvegarde sous forme de vrai fichier : Android propose alors
    "Enregistrer dans Drive" tout seul, sans que l'appli ait besoin de
    se connecter à quoi que ce soit --- */
+/* =========================================================
+   SAUVEGARDE SUR GITHUB — utilise le dépôt qui héberge déjà
+   l'appli comme lieu de stockage partagé. La lecture est
+   publique (pas besoin de jeton) ; l'écriture demande un jeton
+   personnel, saisi une fois et gardé uniquement sur l'appareil
+   qui l'a saisi (jamais dans le fichier du site).
+   ========================================================= */
+const GH_OWNER = "gaelpetitjean25-png";
+const GH_REPO = "revisions";
+const GH_FICHIER = "sauvegarde.json";
+
+function githubToken(){ return localStorage.getItem('gh_token') || ''; }
+function definirTokenGithub(){
+  const t = prompt(
+    "Colle ici ton jeton GitHub (Settings → Developer settings → Fine-grained tokens, accès en lecture/écriture sur ce dépôt uniquement) :",
+    githubToken()
+  );
+  if (t === null) return;
+  localStorage.setItem('gh_token', t.trim());
+  etatGithub(t.trim() ? "🔑 Jeton enregistré sur cet appareil." : "Jeton effacé.");
+}
+function etatGithub(msg){
+  const el = document.getElementById('etat-github');
+  if (el) el.innerHTML = msg;
+}
+async function sauvegarderGithub(){
+  const token = githubToken();
+  if (!token){ etatGithub("⚠️ Ajoute d'abord ton jeton GitHub (bouton ci-dessus)."); return; }
+  etatGithub("⏳ Sauvegarde en cours…");
+  try{
+    const url = `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${GH_FICHIER}`;
+    let sha = null;
+    const rActuel = await fetch(url, {headers:{Authorization:"token " + token, Accept:"application/vnd.github+json"}});
+    if (rActuel.ok){ const data = await rActuel.json(); sha = data.sha; }
+    else if (rActuel.status !== 404){ throw new Error("jeton invalide ou droits insuffisants (" + rActuel.status + ")"); }
+    const contenu = btoa(unescape(encodeURIComponent(JSON.stringify(progres, null, 2))));
+    const corps = { message: "Sauvegarde du " + new Date().toLocaleString('fr-FR'), content: contenu };
+    if (sha) corps.sha = sha;
+    const rEcrire = await fetch(url, {
+      method:"PUT",
+      headers:{Authorization:"token " + token, "Content-Type":"application/json", Accept:"application/vnd.github+json"},
+      body: JSON.stringify(corps)
+    });
+    if (!rEcrire.ok){
+      const err = await rEcrire.json().catch(() => ({}));
+      throw new Error(err.message || ("HTTP " + rEcrire.status));
+    }
+    etatGithub("✅ Sauvegardé sur GitHub à " + new Date().toLocaleTimeString('fr-FR').slice(0,5) + ".");
+  }catch(e){
+    etatGithub("❌ Échec : " + e.message);
+  }
+}
+async function chargerGithub(){
+  etatGithub("⏳ Chargement…");
+  try{
+    const url = `https://raw.githubusercontent.com/${GH_OWNER}/${GH_REPO}/main/${GH_FICHIER}?t=` + Date.now();
+    const r = await fetch(url, {cache:"no-store"});
+    if (!r.ok) throw new Error("Aucune sauvegarde trouvée sur GitHub pour l'instant (fais d'abord « Sauvegarder » depuis un appareil).");
+    const objet = await r.json();
+    if (!objet || !objet.petite || !objet.grande) throw new Error("Le fichier trouvé n'est pas une sauvegarde valide.");
+    if (!confirm("Remplacer la progression de cet appareil par la dernière sauvegarde GitHub ?")){ etatGithub(""); return; }
+    progres = objet; normaliser(); sauver(); rafraichirAccueil();
+    etatGithub("✅ Chargé depuis GitHub.");
+    montrer('ec-accueil');
+  }catch(e){
+    etatGithub("❌ " + e.message + (String(e.message).includes("valide") || String(e.message).includes("trouvée") ? "" : " (le fichier vient peut-être d'être sauvegardé il y a moins d'une minute : réessaie un peu plus tard)"));
+  }
+}
+
 function telechargerSauvegarde(){
   const donnees = JSON.stringify(progres, null, 2);
   const blob = new Blob([donnees], {type:"application/json"});
