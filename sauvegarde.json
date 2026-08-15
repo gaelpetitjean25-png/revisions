@@ -8,19 +8,22 @@
     "garde": 300
   },
   "petite": {
-    "etoiles": 237,
-    "parties": 30,
-    "justes": 237,
-    "total": 300,
+    "etoiles": 245,
+    "parties": 31,
+    "justes": 245,
+    "total": 310,
     "nouveaux": 0,
     "sac": {
-      "🪀": 9,
-      "🧃": 1,
-      "🧼": 1
+      "🍓": 1,
+      "🫧": 1,
+      "🎀": 1,
+      "🧼": 1,
+      "🥕": 1,
+      "🛁": 1
     },
-    "pieces": 74,
-    "tempsExo": 199,
-    "tempsAnimal": 326,
+    "pieces": 249,
+    "tempsExo": 342,
+    "tempsAnimal": 215,
     "creatures": {
       "licorne": {
         "espece": "licorne",
@@ -31,7 +34,7 @@
         "soif": 20,
         "propre": 20,
         "joie": 20,
-        "maj": 1786733475468,
+        "maj": 1786810616497,
         "envie": "faim",
         "prochainBobo": 1786531840257,
         "bobo": false,
@@ -41,25 +44,26 @@
       "minourose": {
         "espece": "minourose",
         "stade": 1,
-        "xp": 26,
+        "xp": 81,
         "nom": "Lucie may",
         "faim": 20,
         "soif": 20,
         "propre": 20,
-        "joie": 20,
-        "maj": 1786733475468,
-        "envie": "faim"
+        "joie": 100,
+        "maj": 1786810616497,
+        "envie": "faim",
+        "prochainBobo": 1786811417579
       },
       "loutre": {
         "espece": "loutre",
         "stade": 2,
         "xp": 79,
         "nom": "Loutre",
-        "faim": 40,
-        "soif": 100,
-        "propre": 100,
-        "joie": 100,
-        "maj": 1786733475468,
+        "faim": 20,
+        "soif": 36,
+        "propre": 36,
+        "joie": 36,
+        "maj": 1786810616497,
         "envie": "faim",
         "bobo": false,
         "boboX": 36.75700665665279,
@@ -71,12 +75,12 @@
         "stade": 2,
         "xp": 83,
         "nom": "Poussin",
-        "faim": 100,
-        "soif": 100,
-        "propre": 100,
-        "joie": 100,
-        "maj": 1786733475468,
-        "envie": null,
+        "faim": 36,
+        "soif": 36,
+        "propre": 36,
+        "joie": 36,
+        "maj": 1786810616497,
+        "envie": "faim",
         "prochainBobo": 1786734229153
       },
       "pandaroux": {
@@ -88,7 +92,7 @@
         "soif": 20,
         "propre": 20,
         "joie": 20,
-        "maj": 1786733475468,
+        "maj": 1786810616497,
         "envie": "faim"
       },
       "tortue": {
@@ -100,43 +104,43 @@
         "soif": 20,
         "propre": 20,
         "joie": 20,
-        "maj": 1786733475468,
+        "maj": 1786810616497,
         "envie": "faim",
         "prochainBobo": 1786532335309
       },
       "mouton": {
         "espece": "mouton",
         "stade": 2,
-        "xp": 84,
+        "xp": 107,
         "nom": "luciemay",
-        "faim": 100,
-        "soif": 100,
-        "propre": 84,
+        "faim": 36,
+        "soif": 50,
+        "propre": 38,
         "joie": 100,
-        "maj": 1786733475468,
-        "envie": null,
-        "prochainBobo": 1786734101889
+        "maj": 1786810616497,
+        "envie": "faim",
+        "prochainBobo": 1786811392472
       },
       "etoilekawaii": {
         "espece": "etoilekawaii",
         "stade": 1,
         "xp": 21,
         "nom": "Étoile filante",
-        "faim": 100,
-        "soif": 100,
-        "propre": 100,
-        "joie": 100,
-        "maj": 1786733475468,
-        "envie": null
+        "faim": 36,
+        "soif": 36,
+        "propre": 36,
+        "joie": 36,
+        "maj": 1786810616497,
+        "envie": "faim"
       }
     },
-    "actif": "loutre",
+    "actif": "minourose",
     "oeuf": null,
     "memo": {},
     "lecture": {
-      "etape": 3,
-      "reussites": 6,
-      "sur": 11
+      "etape": 4,
+      "reussites": 0,
+      "sur": 0
     },
     "equipements": {
       "abreuvoir": false,
@@ -150,7 +154,7 @@
       "piscine": false,
       "cabane": false
     },
-    "majProfil": 1786733502877,
+    "majProfil": 1786810863325,
     "statsExo": {
       "exRanger": {
         "r": 8,
@@ -161,12 +165,12 @@
         "s": 8
       },
       "exCouleur": {
-        "r": 8,
-        "s": 9
+        "r": 9,
+        "s": 10
       },
       "exCompter": {
-        "r": 4,
-        "s": 8
+        "r": 5,
+        "s": 9
       },
       "exSyllabes": {
         "r": 5,
@@ -177,32 +181,36 @@
         "s": 7
       },
       "exSonAttaque": {
-        "r": 4,
-        "s": 6
+        "r": 6,
+        "s": 8
       },
       "exLireMot": {
-        "r": 1,
-        "s": 2
+        "r": 2,
+        "s": 3
       },
       "exDecodage": {
         "r": 4,
         "s": 4
       },
       "exEcrireMot": {
-        "r": 1,
-        "s": 3
+        "r": 4,
+        "s": 6
       },
       "exTracerLettre": {
-        "r": 3,
-        "s": 3
+        "r": 4,
+        "s": 4
       },
       "exLettreManquante": {
-        "r": 1,
-        "s": 3
+        "r": 2,
+        "s": 5
       },
       "exMotOutil": {
         "r": 1,
         "s": 3
+      },
+      "exAdditionSimple": {
+        "r": 1,
+        "s": 2
       }
     },
     "statsFamille": {}
@@ -229,8 +237,8 @@
       "💧": 11,
       "🫧": 11
     },
-    "pieces": 192,
-    "tempsExo": 32,
+    "pieces": 212,
+    "tempsExo": 81,
     "tempsAnimal": 2686,
     "creatures": {
       "capybara": {
@@ -238,11 +246,11 @@
         "stade": 3,
         "xp": 161,
         "nom": "capy",
-        "faim": 61,
-        "soif": 61,
-        "propre": 81,
-        "joie": 81,
-        "maj": 1786692656939,
+        "faim": 20,
+        "soif": 20,
+        "propre": 32,
+        "joie": 32,
+        "maj": 1786810418510,
         "envie": "faim",
         "prochainBobo": 1786646871946,
         "apparence": 1
@@ -252,11 +260,11 @@
         "stade": 3,
         "xp": 130,
         "nom": "boing",
-        "faim": 61,
-        "soif": 61,
-        "propre": 81,
-        "joie": 81,
-        "maj": 1786692656939,
+        "faim": 20,
+        "soif": 20,
+        "propre": 32,
+        "joie": 32,
+        "maj": 1786810418510,
         "envie": "faim",
         "bobo": false,
         "prochainBobo": 1786646897062,
@@ -267,11 +275,11 @@
         "stade": 3,
         "xp": 141,
         "nom": "flameche",
-        "faim": 61,
-        "soif": 61,
-        "propre": 81,
-        "joie": 61,
-        "maj": 1786692656939,
+        "faim": 20,
+        "soif": 20,
+        "propre": 32,
+        "joie": 20,
+        "maj": 1786810418510,
         "envie": "joie",
         "prochainBobo": 1786646760379,
         "bobo": false,
@@ -284,11 +292,11 @@
         "stade": 3,
         "xp": 141,
         "nom": "croquette",
-        "faim": 61,
-        "soif": 61,
-        "propre": 81,
-        "joie": 81,
-        "maj": 1786692656939,
+        "faim": 20,
+        "soif": 20,
+        "propre": 32,
+        "joie": 32,
+        "maj": 1786810418510,
         "envie": "faim",
         "prochainBobo": 1786646840238,
         "apparence": 1
@@ -298,11 +306,11 @@
         "stade": 2,
         "xp": 123,
         "nom": "bubule",
-        "faim": 61,
-        "soif": 61,
-        "propre": 81,
-        "joie": 81,
-        "maj": 1786692656939,
+        "faim": 20,
+        "soif": 20,
+        "propre": 32,
+        "joie": 32,
+        "maj": 1786810418510,
         "envie": "faim",
         "prochainBobo": 1786690468542
       },
@@ -311,11 +319,11 @@
         "stade": 2,
         "xp": 117,
         "nom": "Prune",
-        "faim": 61,
-        "soif": 61,
-        "propre": 81,
-        "joie": 58,
-        "maj": 1786692656939,
+        "faim": 20,
+        "soif": 20,
+        "propre": 32,
+        "joie": 20,
+        "maj": 1786810418510,
         "envie": "joie",
         "prochainBobo": 1786646814967
       },
@@ -324,11 +332,11 @@
         "stade": 2,
         "xp": 124,
         "nom": "muffi",
-        "faim": 61,
-        "soif": 61,
-        "propre": 81,
-        "joie": 81,
-        "maj": 1786692656939,
+        "faim": 20,
+        "soif": 20,
+        "propre": 32,
+        "joie": 32,
+        "maj": 1786810418510,
         "envie": "faim",
         "prochainBobo": 1786646967127
       },
@@ -337,11 +345,11 @@
         "stade": 3,
         "xp": 134,
         "nom": "choupisson",
-        "faim": 61,
-        "soif": 61,
-        "propre": 81,
-        "joie": 78,
-        "maj": 1786692656939,
+        "faim": 20,
+        "soif": 20,
+        "propre": 32,
+        "joie": 29,
+        "maj": 1786810418510,
         "envie": "faim",
         "prochainBobo": 1786646924343,
         "apparence": 1
@@ -411,8 +419,8 @@
         "du": 1789545530396
       },
       "lec.4.0": {
-        "b": 5,
-        "du": 1789500404625
+        "b": 1,
+        "du": 1786811059079
       },
       "geo.cap.Pologne": {
         "b": 2,
@@ -499,8 +507,8 @@
         "du": 1786606586033
       },
       "geo.reg.Bourgogne-Franche-Comté": {
-        "b": 2,
-        "du": 1786780125639
+        "b": 1,
+        "du": 1786811052655
       },
       "geo.cap.Autriche": {
         "b": 2,
@@ -675,8 +683,8 @@
         "du": 1786615319454
       },
       "geo.av.2": {
-        "b": 2,
-        "du": 1786789386234
+        "b": 3,
+        "du": 1787415255330
       },
       "geo.reg.Occitanie": {
         "b": 1,
@@ -768,7 +776,7 @@
       },
       "fr.conj.avoir.plus-que-parfait.2": {
         "b": 1,
-        "du": 1786617100766
+        "du": 1786811021877
       },
       "fr.syn.débuter": {
         "b": 1,
@@ -803,8 +811,8 @@
         "du": 1786905556331
       },
       "geo.av.6": {
-        "b": 1,
-        "du": 1786618573503
+        "b": 2,
+        "du": 1787069657185
       },
       "geo.div.5": {
         "b": 1,
@@ -836,12 +844,12 @@
       "piscine": false,
       "cabane": false
     },
-    "majProfil": 1786689593905,
+    "majProfil": 1786810471372,
     "statsExo": {},
     "statsFamille": {
       "geo": {
-        "r": 44,
-        "s": 69
+        "r": 46,
+        "s": 72
       },
       "maths": {
         "r": 41,
@@ -849,7 +857,7 @@
       },
       "francais": {
         "r": 29,
-        "s": 43
+        "s": 44
       },
       "litt": {
         "r": 43,
@@ -857,10 +865,10 @@
       },
       "lecture": {
         "r": 27,
-        "s": 27
+        "s": 28
       }
     }
   },
-  "majGlobal": 1786733502877,
+  "majGlobal": 1786810863325,
   "cloud": "j-019ff0d2-8b7c-78ee-9015-e56ee8e97c54"
 }
